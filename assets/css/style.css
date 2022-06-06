@@ -2287,7 +2287,7 @@ p:last-child {
 }
 
 .subscribe-content .sub-title {
-	color: #fff;
+	/* color: #fff; */
 	display: block;
 	text-transform: capitalize;
 	font-size: 16px;
@@ -2295,7 +2295,7 @@ p:last-child {
 }
 
 .subscribe-content h2 {
-	color: #fff;
+	/* color: #fff; */
 	margin-bottom: 14px;
 	margin-left: auto;
 	margin-right: auto;
@@ -2314,7 +2314,7 @@ p:last-child {
 	display: block;
 	width: 100%;
 	background-color: #ffffff;
-	border: none;
+	border: 1px solid #d5d5d5;
 	height: 50px;
 	padding-left: 25px;
 	border-radius: 5px;
@@ -4142,7 +4142,7 @@ blockquote::after,
 .footer-subscribe-wrapper {
 	position: relative;
 	z-index: 1;
-	background-color: #1c1c23;
+	/* background-color: #1c1c23; */
 }
 
 .footer-heading {
@@ -4151,7 +4151,7 @@ blockquote::after,
 
 .footer-heading h3 {
 	font-size: 20px;
-	color: #ffffff;
+	/* color: #ffffff; */
 	font-weight: 600;
 	margin: 0 0 0 0;
 	position: relative;
@@ -4179,10 +4179,10 @@ blockquote::after,
 	height: 35px;
 	width: 35px;
 	line-height: 35px;
-	background-color: #ffffff;
-	border: 1px solid #ffffff;
+	background-color: #7b68ee;
+	border: 1px solid #7b68ee;
 	border-radius: 50px;
-	color: #7b68ee;
+	color: #fff;
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
 	text-align: center;
@@ -4200,7 +4200,7 @@ blockquote::after,
 
 .single-footer-widget p {
 	font-size: 15px;
-	color: #ececec;
+	/* color: #ececec; */
 	font-weight: 400;
 }
 
@@ -4210,7 +4210,7 @@ blockquote::after,
 
 .single-footer-widget .footer-heading h3 {
 	font-size: 20px;
-	color: #ffffff;
+	/* color: #ffffff; */
 	font-weight: 700;
 	margin: 0 0 0 0;
 }
@@ -4231,7 +4231,7 @@ blockquote::after,
 
 .single-footer-widget .footer-quick-links li a {
 	display: inline-block;
-	color: #ececec;
+	/* color: #ececec; */
 	font-size: 15px;
 	font-weight: 400;
 }
@@ -4254,7 +4254,7 @@ blockquote::after,
 }
 
 .single-footer-widget .footer-info-contact i {
-	color: #ffffff;
+	/* color: #ffffff; */
 	position: absolute;
 	left: 0;
 	top: 0px;
@@ -4266,20 +4266,20 @@ blockquote::after,
 
 .single-footer-widget .footer-info-contact h3 {
 	font-size: 16px;
-	color: #fff;
+	/* color: #fff; */
 	font-weight: 600;
 	margin: 0 0 10px 0;
 }
 
 .single-footer-widget .footer-info-contact span {
 	font-size: 15px;
-	color: #ececec;
+	/* color: #ececec; */
 	font-weight: 400;
 }
 
 .single-footer-widget .footer-info-contact span a {
 	font-size: 15px;
-	color: #ececec;
+	/* color: #ececec; */
 	font-weight: 400;
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
@@ -4293,12 +4293,13 @@ blockquote::after,
  ** - 29 - Page Copyright Section CSS
  ******************************************/
 .copyright-area {
-	background-color: #212129;
+	border-top: 1px solid #d5d5d5;
+	/* background-color: #212129; */
 	padding: 35px 0;
 }
 
 .copyright-area p {
-	color: #ececec;
+	/* color: #ececec; */
 	font-size: 15px;
 }
 
@@ -4330,7 +4331,7 @@ blockquote::after,
 
 .copyright-area ul li a {
 	display: inline-block;
-	color: #ececec;
+	/* color: #ececec; */
 }
 
 .copyright-area ul li a:hover {
@@ -4365,4 +4366,7 @@ blockquote::after,
 
 .btn-outline-primary:hover {
 	background: #7b68ee;
+}
+.btn .badge {
+    top: -10px;
 }
