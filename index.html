@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="zxx">
-
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
@@ -37,7 +36,6 @@
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
 </head>
-
 <body>
 	<!-- Start Preloader Area -->
 	<div class="preloader">
@@ -81,7 +79,7 @@
 							</li>
 						</ul>
 						<div class="other-option">
-							<a class="default-btn" href="mailto:demo@example.com">Get It Support <span></span></a>
+							<a class="default-btn" href="#getit" data-toggle="modal">Get It Support <span></span></a>
 						</div>
 					</div>
 				</nav>
@@ -89,6 +87,41 @@
 		</div>
 	</div>
 	<!-- End Navbar Area -->
+	<!-- Get it support -->
+	<div class="modal fade" id="getit">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Contact Us</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form action="#">
+						<div class="row">
+							<div class="col-md-6 mb-3">
+								<label for="u_name">Your Name</label>
+								<input type="text" class="form-control" placeholder="Enter here.." id="u_name">
+							</div>
+							<div class="col-md-6 mb-3">
+								<label for="u_email">Your Email <span class="text-danger">*</span></label>
+								<input type="email" class="form-control" placeholder="Enter here.." id="u_email"
+									required>
+							</div>
+							<div class="col-md-12 mb-3">
+								<label for="u_ques">Your Question <span class="text-danger">*</span></label>
+								<textarea id="u_ques" rows="3" class="form-control" required></textarea>
+							</div>
+							<div class="col-md-12 mb-3">
+								<button type="submit" class="btn btn-primary">Send</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- Start Home Area -->
 	<div class="home-area">
 		<div class="d-table">
@@ -923,5 +956,4 @@
 	<!-- Main JS -->
 	<script src="assets/js/main.js"></script>
 </body>
-
 </html>
